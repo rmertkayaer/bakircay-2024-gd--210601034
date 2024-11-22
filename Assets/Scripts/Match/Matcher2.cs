@@ -22,7 +22,7 @@ public class Matcher2 : MonoBehaviour
             Destroy(PlacedObject[0].gameObject);
             PlacedObject.Clear();
         }
-        else
+        else//deneme
         {
             other.GetComponent<Rigidbody>().velocity = new Vector3(0, 1, 1) * 120 * Time.deltaTime;
         }
